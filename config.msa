@@ -1,0 +1,10 @@
+*:/plot [$] = >>>
+    
+    try(
+        _hs_dispatch($),
+     @ex,
+      msg(color(red). 'Oops, an error occurred with homesteads. Check the console!')
+        console(@ex)
+        )
+    <<<
+
